@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Assistant and incoming PhD at [University of Cambridge](https://mlg.eng.cam.ac.uk/)
+subtitle: Research Assistant and incoming PhD at University of Cambridge.
 
 profile:
   align: left
