@@ -16,7 +16,7 @@ social: true # includes social icons at the bottom of the page
 ---
 ## Jiajun He (何佳峻)
 Research assistant and incoming PhD,
-[Machine Learning Group](https://mlg.eng.cam.ac.uk/), University of Cambridge. [Curriculum Vitae](/https://jiajunhe98.github.io/assets/pdf/JiajunHe_CV_academic.pdf)
+[Machine Learning Group](https://mlg.eng.cam.ac.uk/), University of Cambridge. [Curriculum Vitae](https://jiajunhe98.github.io/assets/pdf/JiajunHe_CV_academic.pdf)
 <br/><br/>
 
 Hi there! I am Jiajun. Currently I am a research assistant in the [Machine Learning Group](https://mlg.eng.cam.ac.uk/) at University of Cambridge, supervised by [Prof. José Miguel Hernández-Lobato](https://jmhl.org/).
