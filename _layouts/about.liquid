@@ -18,7 +18,7 @@ layout: default
       1vw, 5vw"{% endcapture %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
+            cache_bust=true style="max-width: 50px; height: auto;"
           %}
         {% endif %}
 
