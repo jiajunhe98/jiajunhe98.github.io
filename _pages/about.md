@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Research Assistant and Incoming PhD in Advanced Machine Learning, University of Cambridge
 
 profile:
   align: left
