@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Assistant in Machine Learning Group at University of Cambridge; Incoming PhD in Advanced Machine Learning at University of Cambridge
+subtitle: Research Assistant and incoming PhD at [University of Cambridge](https://mlg.eng.cam.ac.uk/)
 
 profile:
   align: left
