@@ -7,17 +7,15 @@
   year={2024},
   selected={true},
   arxiv={2405.12203},
-  abstract={Relative entropy coding (REC) algorithms encode a random sample following a target distribution $Q$, using a coding distribution $P$ shared between the sender and receiver. Sadly, general REC algorithms suffer from prohibitive encoding times, at least on the order of $2^{D_{KL}[Q||P]}$, and faster algorithms are limited to very specific settings. This work addresses this issue by introducing a REC scheme utilizing space partitioning to reduce runtime in practical scenarios. We provide theoretical analyses of our method and demonstrate its effectiveness with both toy examples and practical applications. Notably, our method successfully handles REC tasks with $D_{KL}[Q||P]$ about three times greater than what previous methods can manage, and reduces the bitrate by approximately 5-15% in VAE-based lossless compression on MNIST and INR-based lossy compression on CIFAR-10, compared to previous methods, significantly improving the practicality of REC for neural compression.}
-}
+  }
 
 @inproceedings{li2024bidirectional,
   bibtex_show={true},
   title={Bidirectional Consistency Models},
   author={Li*, Liangchen and He*, Jiajun},
   arxiv={2403.18035},
-  booktitle={Workshop on Structured Probabilistic Inference & Generative Modeling @ ICML 2024},
+  booktitle={Workshop on Structured Probabilistic Inference & Generative Modeling @ ICML},
   pdf={https://openreview.net/pdf?id=oiY6jiQxwi},
-  abstract={Diffusion models (DMs) are capable of generating remarkably high-quality samples by iteratively denoising a random vector, a process corresponding to moving along the probability flow ordinary differential equation (PF ODE). Interestingly, DMs can also invert an input image to noise by moving backward along the PF ODE, a key operation for downstream tasks such as interpolation and image editing. However, the iterative nature of this process restricts its speed. Recently, Consistency Models (CMs) have emerged to address this challenge by approximating the integral of the PF ODE, largely reducing the number of iterations in generation. Yet, the absence of an explicit ODE solver complicates the inversion process. To address this limitation, we introduce the Bidirectional Consistency Model (BCM), which learns a single neural network that enables both forward and backward traversal along the PF ODE, unifying generation and inversion tasks within one framework. Our proposed method supports one-step generation and inversion while allowing the use of additional steps to enhance generation quality or reduce reconstruction error. Its bidirectional consistency also broadens its applications, allowing, for instance, interpolation between two real images - a task beyond the reach of previous CMs.},
   year={2024}
 }
 
@@ -32,8 +30,7 @@
   arxiv={2309.17182},
   code={https://github.com/cambridge-mlg/RECOMBINER},
   slides={https://gergely-flamich.github.io/assets/pdf/slides/recombiner_slides.pdf},
-  abstract={COMpression with Bayesian Implicit NEural Representations (COMBINER) is a recent data compression method that addresses a key inefficiency of previous Implicit Neural Representation (INR)-based approaches: it avoids quantization and enables direct optimization of the rate-distortion performance. However, COMBINER still has significant limitations: 1) it uses factorized priors and posterior approximations that lack flexibility; 2) it cannot effectively adapt to local deviations from global patterns in the data; and 3) its performance can be susceptible to modeling choices and the variational parameters' initializations. Our proposed method, Robust and Enhanced COMBINER (RECOMBINER), addresses these issues by 1) enriching the variational approximation while retaining a low computational cost via a linear reparameterization of the INR weights, 2) augmenting our INRs with learnable positional encodings that enable them to adapt to local details and 3) splitting high-resolution data into patches to increase robustness and utilizing expressive hierarchical priors to capture dependency across patches. We conduct extensive experiments across several data modalities, showcasing that RECOMBINER achieves competitive results with the best INR-based methods and even outperforms autoencoder-based codecs on low-resolution images at low bitrates. }
-}
+  }
 
 
 @inproceedings{guo2023compression,
@@ -44,8 +41,7 @@
   year={2023},
   arxiv={2305.19185},
   code={https://github.com/cambridge-mlg/combiner},
-  abstract={Many common types of data can be represented as functions that map coordinates to signal values, such as pixel locations to RGB values in the case of an image. Based on this view, data can be compressed by overfitting a compact neural network to its functional representation and then encoding the network weights. However, most current solutions for this are inefficient, as quantization to low-bit precision substantially degrades the reconstruction quality. To address this issue, we propose overfitting variational Bayesian neural networks to the data and compressing an approximate posterior weight sample using relative entropy coding instead of quantizing and entropy coding it. This strategy enables direct optimization of the rate-distortion performance by minimizing the β-ELBO, and target different rate-distortion trade-offs for a given network architecture by adjusting β. Moreover, we introduce an iterative algorithm for learning prior weight distributions and employ a progressive refinement process for the variational posterior that significantly enhances performance. Experiments show that our method achieves strong performance on image and audio compression while retaining simplicity.}
-}
+  }
 
 
 
