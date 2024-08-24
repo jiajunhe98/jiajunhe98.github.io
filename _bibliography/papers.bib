@@ -1,17 +1,16 @@
 ---
 ---
 
-
-@article{guo2023compression,
-  bibtex_show={true},
-  title={Compression with bayesian implicit neural representations},
-  author={Guo, Zongyu* and Flamich, Gergely* and He, Jiajun and Chen, Zhibo and Hern{\'a}ndez-Lobato, Jos{\'e} Miguel},
-  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
-  year={2023},
-  arxiv={2305.19185},
-  code={https://github.com/cambridge-mlg/combiner},
-  abstract={Many common types of data can be represented as functions that map coordinates to signal values, such as pixel locations to RGB values in the case of an image. Based on this view, data can be compressed by overfitting a compact neural network to its functional representation and then encoding the network weights. However, most current solutions for this are inefficient, as quantization to low-bit precision substantially degrades the reconstruction quality. To address this issue, we propose overfitting variational Bayesian neural networks to the data and compressing an approximate posterior weight sample using relative entropy coding instead of quantizing and entropy coding it. This strategy enables direct optimization of the rate-distortion performance by minimizing the β-ELBO, and target different rate-distortion trade-offs for a given network architecture by adjusting β. Moreover, we introduce an iterative algorithm for learning prior weight distributions and employ a progressive refinement process for the variational posterior that significantly enhances performance. Experiments show that our method achieves strong performance on image and audio compression while retaining simplicity.}
+@unpublished{he2024accelerating,
+  title={Accelerating Relative Entropy Coding with Space Partitioning},
+  author={He, Jiajun and Flamich, Gergely and Hern{\'a}ndez-Lobato, Jos{\'e} Miguel},
+  booktitle={submitted to NeurIPS 2024},
+  year={2024}
+  selected={true},
+  arxiv={2405.12203},
+  abstract={Relative entropy coding (REC) algorithms encode a random sample following a target distribution $Q$, using a coding distribution $P$ shared between the sender and receiver. Sadly, general REC algorithms suffer from prohibitive encoding times, at least on the order of $2^{D_{KL}[Q||P]}$, and faster algorithms are limited to very specific settings. This work addresses this issue by introducing a REC scheme utilizing space partitioning to reduce runtime in practical scenarios. We provide theoretical analyses of our method and demonstrate its effectiveness with both toy examples and practical applications. Notably, our method successfully handles REC tasks with $D_{KL}[Q||P]$ about three times greater than what previous methods can manage, and reduces the bitrate by approximately 5-15% in VAE-based lossless compression on MNIST and INR-based lossy compression on CIFAR-10, compared to previous methods, significantly improving the practicality of REC for neural compression.}
 }
+
 
 @inproceedings{he2024recombiner,
   bibtex_show={true},
@@ -27,30 +26,26 @@
 }
 
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@article{guo2023compression,
+  bibtex_show={true},
+  title={Compression with bayesian implicit neural representations},
+  author={Guo, Zongyu* and Flamich, Gergely* and He, Jiajun and Chen, Zhibo and Hern{\'a}ndez-Lobato, Jos{\'e} Miguel},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2023},
+  arxiv={2305.19185},
+  code={https://github.com/cambridge-mlg/combiner},
+  abstract={Many common types of data can be represented as functions that map coordinates to signal values, such as pixel locations to RGB values in the case of an image. Based on this view, data can be compressed by overfitting a compact neural network to its functional representation and then encoding the network weights. However, most current solutions for this are inefficient, as quantization to low-bit precision substantially degrades the reconstruction quality. To address this issue, we propose overfitting variational Bayesian neural networks to the data and compressing an approximate posterior weight sample using relative entropy coding instead of quantizing and entropy coding it. This strategy enables direct optimization of the rate-distortion performance by minimizing the β-ELBO, and target different rate-distortion trade-offs for a given network architecture by adjusting β. Moreover, we introduce an iterative algorithm for learning prior weight distributions and employ a progressive refinement process for the variational posterior that significantly enhances performance. Experiments show that our method achieves strong performance on image and audio compression while retaining simplicity.}
 }
+
+
+
+@inproceedings{he2024data,
+  bibtex_show={true},
+  title={Data Compression with Variational Implicit Neural Representations},
+  author={He, Jiajun},
+  publisher={University of Cambridge},
+  year={2023},
+  selected={false},
+  pdf={https://www.mlmi.eng.cam.ac.uk/files/2022_-_2023_dissertations/data_compression.pdf}
+  }
+
