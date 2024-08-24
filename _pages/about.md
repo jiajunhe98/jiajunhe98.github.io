@@ -14,6 +14,7 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+# Jiajun He (何佳峻)
 Hi there! I am Jiajun. Currently I am a research assistant in the [Machine Learning Group](https://mlg.eng.cam.ac.uk/) at University of Cambridge, spuervised by [Prof. José Miguel Hernández-Lobato](https://jmhl.org/).
 This page is still under construction. 
 <!-- I will band incoming PhD in MLG in  -->
