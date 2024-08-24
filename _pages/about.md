@@ -14,8 +14,8 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-Hi there! I am Jiajun. 
-<!-- Currently I am a research assistant at University of Cambridge. -->
+Hi there! I am Jiajun. Currently I am a research assistant in the [Machine Learning Group](https://mlg.eng.cam.ac.uk/) at University of Cambridge, spuervised by [Prof. José Miguel Hernández-Lobato](https://jmhl.org/).
+This page is still under construction. 
 <!-- I will band incoming PhD in MLG in  -->
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
