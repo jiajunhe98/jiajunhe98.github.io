@@ -14,10 +14,9 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-## Jiajun He (何佳峻)
+<!-- ## Jiajun He (何佳峻)
 Research assistant and incoming PhD, University of Cambridge. [📄Curriculum Vitae](https://jiajunhe98.github.io/assets/pdf/New_JiajunHe_CV_academic.pdf)
-<br/><br/>
-
+<br/><br/> -->
 Hello! I’m Jiajun He, currently working as a Research Assistant in the [Machine Learning Group](https://mlg.eng.cam.ac.uk/) at the University of Cambridge under the supervision of [Prof. José Miguel Hernández-Lobato](https://jmhl.org/). 
 I’m excited to begin my PhD here in October 2024.
 My research interests lie in probabilistic machine learning, Bayesian methods, and their applications in generation and compression.
