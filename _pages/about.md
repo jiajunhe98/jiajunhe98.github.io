@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 ## Jiajun He (何佳峻)
-Research assistant and incoming PhD, University of Cambridge. [Curriculum Vitae](https://jiajunhe98.github.io/assets/pdf/New_JiajunHe_CV_academic.pdf)
+Research assistant and incoming PhD, University of Cambridge. [📄Curriculum Vitae](https://jiajunhe98.github.io/assets/pdf/New_JiajunHe_CV_academic.pdf)
 <br/><br/>
 
 Hello! I’m Jiajun He, currently working as a Research Assistant in the [Machine Learning Group](https://mlg.eng.cam.ac.uk/) at the University of Cambridge under the supervision of [Prof. José Miguel Hernández-Lobato](https://jmhl.org/). 
