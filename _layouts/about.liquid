@@ -14,7 +14,7 @@ layout: default
             {% assign profile_image_class = 'img-fluid z-depth-1
       rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 50 | times: 0.001}}px, (min-width: 10px)
+          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 500 | times: 0.001}}px, (min-width: 10px)
       1vw, 5vw"{% endcapture %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
@@ -36,8 +36,8 @@ layout: default
       <h1>Jiajun He (何佳峻)</h1>
       <p>
         Research assistant and incoming PhD,<br>
-        Department of Engineerning, University of Cambridge. <a href="https://jiajunhe98.github.io/assets/pdf/JiajunHe_CV_academic.pdf">📄Curriculum Vitae</a>
-      </p>
+        Department of Engineering, University of Cambridge. <a href="https://jiajunhe98.github.io/assets/pdf/JiajunHe_CV_academic.pdf">📄Curriculum Vitae</a>
+      </p><br/><br/>
     </div>
 
     <!-- Social -->
