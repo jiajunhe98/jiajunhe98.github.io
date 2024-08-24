@@ -16,7 +16,7 @@ social: true # includes social icons at the bottom of the page
 ---
 ## Jiajun He (何佳峻)
 Research assistant and incoming PhD in [Machine Learning Group](https://mlg.eng.cam.ac.uk/) at University of Cambridge.
-
+<br/><br/>
 
 Hi there! I am Jiajun. Currently I am a research assistant in the [Machine Learning Group](https://mlg.eng.cam.ac.uk/) at University of Cambridge, supervised by [Prof. José Miguel Hernández-Lobato](https://jmhl.org/).
 My research interest revolves around probabilistic machine learning and its applications in data compression and generation.
