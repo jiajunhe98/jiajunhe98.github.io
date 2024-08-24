@@ -18,9 +18,9 @@ social: true # includes social icons at the bottom of the page
 Research assistant and incoming PhD, University of Cambridge. [Curriculum Vitae](https://jiajunhe98.github.io/assets/pdf/New_JiajunHe_CV_academic.pdf)
 <br/><br/>
 
-Hi there! I am Jiajun. Currently I am a research assistant in the [Machine Learning Group](https://mlg.eng.cam.ac.uk/) at University of Cambridge, supervised by [Prof. José Miguel Hernández-Lobato](https://jmhl.org/).
-I will start my PhD here from October 2024.
-My research interest revolves around probabilistic machine learning, Bayesian methods and their applications in data generation and compression.
+Hello! I’m Jiajun He, currently working as a Research Assistant in the [Machine Learning Group](https://mlg.eng.cam.ac.uk/) at the University of Cambridge under the supervision of [Prof. José Miguel Hernández-Lobato](https://jmhl.org/). 
+I’m excited to begin my PhD here in October 2024.
+My research interests lie in probabilistic machine learning, Bayesian methods, and their applications in generation and compression.
 
 
 Previously, I completed my MPhil in [Machine Learning and Machine Intelligence](https://www.mlmi.eng.cam.ac.uk/) from University of Cambridge, where I graduated with distinction as the top of my cohort. Prior to that, I obained an MSc in Bioinformatics at [University of Copenhagen](https://www.ku.dk/english/) in Denmark, and a BSc in Biological Science at [Tsinghua University](https://www.tsinghua.edu.cn/en/) in China.
