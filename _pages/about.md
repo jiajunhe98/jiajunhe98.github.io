@@ -6,14 +6,15 @@ subtitle: Research Assistant and Incoming PhD in Advanced Machine Learning, Univ
 
 profile:
   align: left
-  image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image: IMG_8239.jpg
+  image_circular: false # crops the image to make it circular
   more_info: 
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+Hi there! My name is Jiajun He (何佳峻). I am current a research assistant and incoming PhD in MLG in University of Cambridge.
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
