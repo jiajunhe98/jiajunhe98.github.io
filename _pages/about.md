@@ -23,7 +23,5 @@ I’m excited to begin my PhD here in October 2024.
 My research interests lie in probabilistic machine learning, Bayesian methods, and their applications in generation and compression.
 
 
-Previously, I completed my MPhil in [Machine Learning and Machine Intelligence](https://www.mlmi.eng.cam.ac.uk/) from University of Cambridge, where I graduated with distinction as the top of my cohort. 
-For my MPhil dissertation, I worked with [Prof. José Miguel Hernández-Lobato](https://jmhl.org/) and [Gergely Flamich](https://gergely-flamich.github.io/) on data compression with Implicit Neural Representations.   
-Before Cambridge, I obained an MSc in Bioinformatics at [University of Copenhagen](https://www.ku.dk/english/) in Denmark, and a BSc in Biological Science at [Tsinghua University](https://www.tsinghua.edu.cn/en/) in China.
+Previously, I completed my MPhil in [Machine Learning and Machine Intelligence](https://www.mlmi.eng.cam.ac.uk/) from University of Cambridge, where I graduated with distinction as the top of my cohort. For my MPhil dissertation, I worked with [Prof. José Miguel Hernández-Lobato](https://jmhl.org/) and [Gergely Flamich](https://gergely-flamich.github.io/) on data compression with Implicit Neural Representations. Before Cambridge, I obained an MSc in Bioinformatics at [University of Copenhagen](https://www.ku.dk/english/) in Denmark, and a BSc in Biological Science at [Tsinghua University](https://www.tsinghua.edu.cn/en/) in China.
 
