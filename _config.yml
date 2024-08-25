@@ -311,8 +311,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Jiajun]
-  first_name: [He]
+  last_name: [He]
+  first_name: [Jiajun]
 
   style: apa
   locale: en
