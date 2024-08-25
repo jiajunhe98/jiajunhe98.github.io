@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 <!-- ## Jiajun He (何佳峻)
        html: <a href="https://jiajunhe98.github.io/assets/pdf/JiajunHe_CV_academic.pdf">📄Curriculum Vitae</a>
 <br/><br/> -->
-Hello! I’m Jiajun He ([pronunciation](https://jiajunhe98.github.io/assets/audio/jiajunhe.mp3)), currently working as a Research Assistant in the [Machine Learning Group](https://mlg.eng.cam.ac.uk/) at the University of Cambridge under the supervision of [Prof. José Miguel Hernández-Lobato](https://jmhl.org/). 
+Hello! I’m Jiajun He, currently working as a Research Assistant in the [Machine Learning Group](https://mlg.eng.cam.ac.uk/) at the University of Cambridge under the supervision of [Prof. José Miguel Hernández-Lobato](https://jmhl.org/). 
 I’m excited to begin my PhD here in October 2024.
 My research interests lie in probabilistic machine learning, Bayesian methods, and their applications in generation and compression.
 
