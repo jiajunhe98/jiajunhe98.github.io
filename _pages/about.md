@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: left
-  image: IMG_8239_s.jpg
+  image: IMG_8239.jpg
   image_circular: false # crops the image to make it circular
   more_info: 
 
@@ -15,6 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 <!-- ## Jiajun He (何佳峻)
+       html: <a href="https://jiajunhe98.github.io/assets/pdf/JiajunHe_CV_academic.pdf">📄Curriculum Vitae</a>
 Research assistant and incoming PhD, University of Cambridge. [📄Curriculum Vitae](https://jiajunhe98.github.io/assets/pdf/New_JiajunHe_CV_academic.pdf)
 <br/><br/> -->
 Hello! I’m Jiajun He, currently working as a Research Assistant in the [Machine Learning Group](https://mlg.eng.cam.ac.uk/) at the University of Cambridge under the supervision of [Prof. José Miguel Hernández-Lobato](https://jmhl.org/). 
