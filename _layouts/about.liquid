@@ -18,6 +18,7 @@ layout: default
       1vw, 5vw"{% endcapture %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class="preview z-depth-1 rounded" sizes="100px" alt=entry.preview
+            cache_bust=true
           %}
         {% endif %}
 
