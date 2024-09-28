@@ -1,0 +1,5 @@
+    <!-- News -->
+    {% if page.news and site.announcements.enabled %}
+      <h2 style="color: inherit">news</h2>
+      {% include news.liquid limit=true %}
+    {% endif %}
