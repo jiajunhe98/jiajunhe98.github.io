@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
        
 <br/><br/> -->
 Hello there! I’m Jiajun He (何佳峻)! I am a first-year PhD in the [Machine Learning Group](https://mlg.eng.cam.ac.uk/) at the University of Cambridge under the supervision of [Prof. José Miguel Hernández-Lobato](https://jmhl.org/). 
-My research interests lie in probabilistic models, Bayesian methods, and their applications in generation and compression.
+My research interests focus on probabilistic methods. Specifically, I am interested in developing accelerated algorithms for relative entropy coding in compression, and designing neural samplers for sampling from unnormalized densities.
 
 
 Previously, I completed my MPhil in [Machine Learning and Machine Intelligence](https://www.mlmi.eng.cam.ac.uk/) from University of Cambridge, where I graduated with distinction as the first of the cohort. For my MPhil dissertation, I worked with [Prof. José Miguel Hernández-Lobato](https://jmhl.org/) and [Gergely Flamich](https://gergely-flamich.github.io/) on data compression with Implicit Neural Representations. Prior to that, I obained an MSc in Bioinformatics at [University of Copenhagen](https://www.ku.dk/english/) in Denmark, and a BSc in Biological Science at [Tsinghua University](https://www.tsinghua.edu.cn/en/) in China.
