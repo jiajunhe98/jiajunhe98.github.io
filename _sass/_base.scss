@@ -728,6 +728,13 @@ footer.sticky-bottom {
           margin-bottom: 0.5rem;
           color: var(--global-theme-color); /* Set text color to match the theme */
         }
+        a {
+          color: var(--global-theme-color); /* Ensure link color matches */
+    
+          &:hover {
+            text-decoration: none;
+          }
+        }
       }
       .title {
         font-weight: bolder;
@@ -914,6 +921,13 @@ footer.sticky-bottom {
             border: 2px solid var(--global-theme-color); /* Increase border width */
             margin-bottom: 0.5rem;
             color: var(--global-theme-color); /* Set text color to match the theme */
+          }
+          a {
+            color: var(--global-theme-color); /* Ensure link color matches */
+      
+            &:hover {
+              text-decoration: none;
+            }
           }
         }
         
