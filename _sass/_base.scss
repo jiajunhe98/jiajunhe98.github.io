@@ -699,41 +699,30 @@ footer.sticky-bottom {
 
       .abbr {
         margin-bottom: 0.5rem;
-
+        height: 2rem;
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
-          margin-bottom: 0.5rem;
-
+          padding-left: 1rem;
+          padding-right: 1rem;
           a {
             color: white;
-
             &:hover {
               text-decoration: none;
             }
           }
         }
-
         .award {
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
+          padding-left: 0.75rem;
+          padding-right: 0.75rem;
         }
-      }
-      .classify {
-        margin-bottom: 0.5rem;
-      
-        classify {
-          display: inline-block;
-          border: 2px solid var(--global-theme-color); /* Increase border width */
-          margin-bottom: 0.5rem;
-          color: var(--global-theme-color); /* Set text color to match the theme */
-        }
-        a {
-          color: var(--global-theme-color); /* Ensure link color matches */
-    
-          &:hover {
-            text-decoration: none;
-          }
+        .classify {
+          color: var(--global-theme-color) !important;
+          border: 1px solid var(--global-theme-color);
+          padding-left: 0.75rem;
+          padding-right: 0.75rem;
         }
       }
       .title {
@@ -894,15 +883,14 @@ footer.sticky-bottom {
   
         .abbr {
           margin-bottom: 0.5rem;
-  
+          height: 2rem;
           abbr {
             display: inline-block;
             background-color: var(--global-theme-color);
-            margin-bottom: 0.5rem;
-  
+            padding-left: 1rem;
+            padding-right: 1rem;
             a {
               color: white;
-  
               &:hover {
                 text-decoration: none;
               }
@@ -911,23 +899,14 @@ footer.sticky-bottom {
           .award {
             color: var(--global-theme-color) !important;
             border: 1px solid var(--global-theme-color);
+            padding-left: 0.75rem;
+            padding-right: 0.75rem;
           }
-        }
-        .classify {
-          margin-bottom: 0.5rem;
-        
-          classify {
-            display: inline-block;
-            border: 2px solid var(--global-theme-color); /* Increase border width */
-            margin-bottom: 0.5rem;
-            color: var(--global-theme-color); /* Set text color to match the theme */
-          }
-          a {
-            color: var(--global-theme-color); /* Ensure link color matches */
-      
-            &:hover {
-              text-decoration: none;
-            }
+          .classify {
+            color: var(--global-theme-color) !important;
+            border: 1px solid var(--global-theme-color);
+            padding-left: 0.75rem;
+            padding-right: 0.75rem;
           }
         }
         
