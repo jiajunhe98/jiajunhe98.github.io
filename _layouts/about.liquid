@@ -33,7 +33,9 @@ layout: default
     {% endif %}
     
     <div>
+    <header class="post-header">
      <h2 class="post-title">{{Jiajun He}}</h2>
+     </header>
       <p>
         PhD student in machine learning, <br>
         University of Cambridge. <a href="https://jiajunhe98.github.io/assets/pdf/JiajunHe_CV_academic.pdf"><i class="fas fa-file-pdf"></i>Curriculum Vitae</a>
@@ -58,9 +60,11 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
+    <header class="post-header">
       <h4 class="post-title">{{
       Representative Publications [<a href="{{ '/publications/' | relative_url }}" style="color: inherit">view more</a>]
      }}</h4>
+     </header>
       {% include selected_papers.liquid %}
     {% endif %}
 
