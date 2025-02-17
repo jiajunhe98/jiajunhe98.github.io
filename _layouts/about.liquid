@@ -59,8 +59,9 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h4><strong>
-      Representative Publications [<a href="{{ '/publications/' | relative_url }}" style="color: inherit">view more</a>]
+      Representative Publications
       </strong></h4>
+      <a href="{{ '/publications/' | relative_url }}"> Click </a> to view more.
       {% include selected_papers.liquid %}
     {% endif %}
 
