@@ -903,12 +903,13 @@ footer.sticky-bottom {
           classify {
             display: inline-block;
             background-color: transparent; /* No background color */
-            border: 1px solid var(--global-theme-color); /* Use theme color for boundary */
+            border: 2px solid var(--global-theme-color); /* Increase border width */
             margin-bottom: 0.5rem;
             padding: 0.5rem; /* Optional: Add padding for spacing */
+            color: var(--global-theme-color); /* Set text color to match the theme */
         
             a {
-              color: var(--global-theme-color); /* Adjust text color if needed */
+              color: var(--global-theme-color); /* Ensure link color matches */
         
               &:hover {
                 text-decoration: none;
