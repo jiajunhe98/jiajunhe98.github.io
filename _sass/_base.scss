@@ -724,15 +724,16 @@ footer.sticky-bottom {
       }
       .paper-label {
         display: inline-block;
-        background-color: #bbbbbb; /* or any color you like */
+        background-color: #bbbbbb;
         color: #ffffff;
         border-radius: 1px;
-        /* height: 2rem; */
-        padding: 0.1em 0.3em; /* Adjust to reduce the vertical space */
+        padding: 0.1em 0.3em;
         margin-right: 0.2em;
         font-size: 0.8em;
         font-weight: 400;
-        line-height: 1; /* Optionally force a tighter line-height */
+        line-height: 1;
+        vertical-align: middle;
+        /* border: 1px solid red; for debugging */
       }
       .author {
         a {
