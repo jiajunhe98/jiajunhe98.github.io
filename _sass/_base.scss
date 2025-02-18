@@ -722,7 +722,16 @@ footer.sticky-bottom {
       .title {
         font-weight: bolder;
       }
-
+      .paper-label {
+        display: inline-block;
+        background-color: #636363; /* or any color you like */
+        color: #ffffff;
+        border-radius: 3px;
+        padding: 0.2em 0.5em;
+        margin-right: 0.4em;
+        font-size: 0.9em;
+        font-weight: 500;
+      }
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
