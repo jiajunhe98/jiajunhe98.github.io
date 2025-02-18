@@ -727,11 +727,12 @@ footer.sticky-bottom {
         background-color: #bbbbbb; /* or any color you like */
         color: #ffffff;
         border-radius: 1px;
-        height: 2rem;
-        padding: 0.2em 0.2em;
+        /* height: 2rem; */
+        padding: 0.1em 0.3em; /* Adjust to reduce the vertical space */
         margin-right: 0.2em;
         font-size: 0.8em;
         font-weight: 400;
+        line-height: 1; /* Optionally force a tighter line-height */
       }
       .author {
         a {
