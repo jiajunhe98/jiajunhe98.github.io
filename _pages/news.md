@@ -1,6 +1,7 @@
 ---
 layout: page
 title: talks
+titledisplay: talks
 permalink: /talks/
 nav: true
 nav_order: 3
