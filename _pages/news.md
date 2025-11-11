@@ -30,6 +30,12 @@ nav_order: 3
 - CSML seminar at Imperial College London, Mar 2025 [[slide](https://jiajunhe98.github.io/assets/pdf/sampling-ic.pdf)]
 
 
+##### Fantastic Path RND and Where to Find Them
+- Generative Modeling & Sampling Seminar at MSR New England, Aug 2025
+
+##### Introduction to Diffusion Models and Probabilistic Inference with Path Measures
+- School of Life Science at Tsinghua University, Nov 2025
+
 
 
 
