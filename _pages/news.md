@@ -14,11 +14,15 @@ nav_order: 3
 
 
 
+##### Fantastic Path RND and Where to Find Them
+- Generative Modeling & Sampling Seminar at MSR New England, Aug 2025 
+- Georgia Institute of Technology, Dec 2025 [[slide](https://jiajunhe98.github.io/assets/pdf/PathRND-GT.pdf)]
+
+
 ##### Introduction to Diffusion Models and Probabilistic Inference with Path Measures
 - School of Life Science at Tsinghua University, Nov 2025 [[slide](https://jiajunhe98.github.io/assets/pdf/Diffusion_talk.pdf)]
 
-##### Fantastic Path RND and Where to Find Them
-- Generative Modeling & Sampling Seminar at MSR New England, Aug 2025 
+
 
 
 ##### FEAT: Free energy Estimators with Adaptive Transport [[slide](https://jiajunhe98.github.io/assets/pdf/Free-energy-estimation-finalize.pdf)]
