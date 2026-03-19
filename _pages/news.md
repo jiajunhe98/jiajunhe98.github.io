@@ -14,6 +14,11 @@ nav_order: 3
 
 
 
+##### Diffusion Model and Path Space Probabilistic Inference
+- Information Processing and Communications Lab, Imperial College London, March 2026 [[slide](https://jiajunhe98.github.io/assets/pdf/Diffusion_and_PathRND.pdf)]
+
+
+
 ##### Fantastic Path RND and Where to Find Them
 - Generative Modeling & Sampling Seminar at MSR New England, Aug 2025 [[slide](https://jiajunhe98.github.io/assets/pdf/PathRND-msr.pdf)] (covering [FEAT](https://arxiv.org/abs/2504.11516) and [RNE](https://arxiv.org/abs/2506.05668))
 - Georgia Institute of Technology, Dec 2025 [[slide](https://jiajunhe98.github.io/assets/pdf/PathRND-GT.pdf)] (covering [FEAT](https://arxiv.org/abs/2504.11516) and [CREPE](https://arxiv.org/abs/2509.23265))
