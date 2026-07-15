@@ -3,17 +3,16 @@ layout: default
 ---
 <div class="post">
   <article>
-    <div class="about-intro">
+    <header class="about-intro">
       {% if page.profile and page.profile.image %}
         <div class="about-intro__photo">
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) 200px, (min-width: 576px) 30vw, 55vw{% endcapture %}
           {%
             include figure.liquid
             loading="eager"
             path=profile_image_path
             class="img-fluid"
-            sizes=sizes
+            sizes="150px"
             alt="Portrait of Jiajun He"
             cache_bust=true
           %}
@@ -23,12 +22,12 @@ layout: default
       <div class="about-intro__text">
         <h1 class="about-intro__name">Jiajun He</h1>
         <p class="about-intro__role">
-          PhD student in machine learning<br>
-          <strong>University of Cambridge</strong>
+          PhD Student in Machine Learning
+          <span class="about-intro__place">University of Cambridge</span>
         </p>
 
         {% if page.social %}
-          <div class="social">
+          <div class="about-intro__social social">
             <div class="contact-icons">{% include social.liquid %}</div>
             {% if site.contact_note and site.contact_note != "" %}
               <div class="contact-note">{{ site.contact_note }}</div>
@@ -36,8 +35,8 @@ layout: default
           </div>
         {% endif %}
       </div>
-    </div>
+    </header>
 
-    <div class="about-body clearfix">{{ content }}</div>
+    <div class="about-body">{{ content }}</div>
   </article>
 </div>
