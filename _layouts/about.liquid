@@ -2,58 +2,42 @@
 layout: default
 ---
 <div class="post">
- 
   <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
+    <div class="about-intro">
+      {% if page.profile and page.profile.image %}
+        <div class="about-intro__photo">
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-           {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) 200px, (min-width: 576px) 30vw, 55vw{% endcapture %}
           {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            include figure.liquid
+            loading="eager"
+            path=profile_image_path
+            class="img-fluid"
+            sizes=sizes
+            alt="Portrait of Jiajun He"
             cache_bust=true
           %}
-        {% endif %}
+        </div>
+      {% endif %}
 
-        {% if site.newsletter.enabled and site.footer_fixed %}
-          {% include scripts/newsletter.liquid center=true %}
-        {% endif %}
+      <div class="about-intro__text">
+        <h1 class="about-intro__name">Jiajun He</h1>
+        <p class="about-intro__role">
+          PhD student in machine learning<br>
+          <strong>University of Cambridge</strong>
+        </p>
 
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
+        {% if page.social %}
+          <div class="social">
+            <div class="contact-icons">{% include social.liquid %}</div>
+            {% if site.contact_note and site.contact_note != "" %}
+              <div class="contact-note">{{ site.contact_note }}</div>
+            {% endif %}
+          </div>
         {% endif %}
       </div>
-    {% endif %}
-    
-    <div>
-      <h1>Jiajun He</h1>
-      <p>
-        PhD student in machine learning,<br>
-        University of Cambridge. 
-      </p><br/><br/>
     </div>
 
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
-
-    <div style="clear: both;"></div>
-    <div class="clearfix">{{ content }}</div>
-
-  
-
-
+    <div class="about-body clearfix">{{ content }}</div>
   </article>
 </div>
