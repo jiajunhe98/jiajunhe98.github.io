@@ -185,6 +185,13 @@
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
+      {% if entry.biorxiv %}
+        {% assign biorxiv_id = entry.biorxiv | strip %}
+        {% unless biorxiv_id contains '10.1101/' %}
+          {% assign biorxiv_id = biorxiv_id | prepend: '10.1101/' %}
+        {% endunless %}
+        <a href="https://www.biorxiv.org/content/{{ biorxiv_id }}" class="btn btn-sm z-depth-0" role="button">bioRxiv</a>
+      {% endif %}
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
       {% endif %}

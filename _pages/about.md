@@ -16,7 +16,7 @@ selected_papers: false
 social: true
 ---
 
-Hello! I’m Jiajun He (何佳峻), a second-year PhD student in the [Machine Learning Group](https://mlg.eng.cam.ac.uk/) at the University of Cambridge, supervised by [Prof. José Miguel Hernández-Lobato](https://jmhl.org/). My PhD is fully funded by the [Harding Distinguished Postgraduate Scholarship](https://www.hardingscholars.fund.cam.ac.uk/).
+Hello! I’m Jiajun He (何佳峻), PhD student in the [Machine Learning Group](https://mlg.eng.cam.ac.uk/) at the University of Cambridge, supervised by [Prof. José Miguel Hernández-Lobato](https://jmhl.org/). My PhD is fully funded by the [Harding Distinguished Postgraduate Scholarship](https://www.hardingscholars.fund.cam.ac.uk/).
 
 ### Research
 
@@ -25,7 +25,7 @@ My research sits at the intersection of probabilistic inference and generative m
 In recent work, I have developed:
 
 - Non-equilibrium (path-space) approaches for free energy estimation
-- Non-equilibrium (path-space) parallel tempering — replica exchange — for accelerated sampling
+- Non-equilibrium (path-space) parallel tempering (aka replica exchange) for accelerated sampling
 - Path-space inference for efficient and flexible control of generative models
 
 I am also interested in information-theoretic approaches to compact representations and compression, as well as generative methods for scientific discovery and design.
@@ -36,4 +36,4 @@ Previously, I completed an MPhil in [Machine Learning and Machine Intelligence](
 
 ### Beyond research
 
-I am also a landscape photographer — you can explore my work on [Instagram](https://www.instagram.com/jiajunhe614/).
+I am also a landscape photographer, and you can explore my work on [Instagram](https://www.instagram.com/jiajunhe614/).

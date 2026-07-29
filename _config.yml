@@ -352,6 +352,7 @@ filtered_bibtex_keywords:
     altmetric,
     annotation,
     arxiv,
+    biorxiv,
     award,
     award_name,
     bibtex_show,
