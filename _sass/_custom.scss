@@ -121,7 +121,7 @@ a {
     object-position: center top;
     border-radius: var(--site-radius);
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.04),
-                0 12px 32px -14px rgba(40, 30, 20, 0.4);
+                0 12px 32px -14px rgba(24, 39, 55, 0.3);
   }
 }
 
@@ -209,6 +209,12 @@ a {
         background: var(--global-theme-color);
       }
     }
+  }
+}
+
+@media (min-width: 768px) {
+  .about-body {
+    margin-left: calc(150px + 1.75rem);
   }
 }
 
@@ -316,7 +322,7 @@ a {
 
     .preview {
       border-radius: var(--site-radius);
-      box-shadow: 0 6px 18px -10px rgba(40, 30, 20, 0.4);
+      box-shadow: 0 6px 18px -10px rgba(24, 39, 55, 0.28);
     }
 
     .abbr abbr {
