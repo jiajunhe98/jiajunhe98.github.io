@@ -12,7 +12,7 @@ layout: default
             loading="eager"
             path=profile_image_path
             class="img-fluid"
-            sizes="150px"
+            sizes="(min-width: 768px) 255px, 215px"
             alt="Portrait of Jiajun He"
             cache_bust=true
           %}
@@ -20,11 +20,18 @@ layout: default
       {% endif %}
 
       <div class="about-intro__text">
+        <p class="about-intro__eyebrow">Probabilistic machine learning</p>
         <h1 class="about-intro__name">Jiajun He</h1>
         <p class="about-intro__role">
           PhD Student in Machine Learning
           <span class="about-intro__place">University of Cambridge</span>
         </p>
+
+        <ul class="about-intro__focus" aria-label="Research areas">
+          <li>Probabilistic inference</li>
+          <li>Generative modelling</li>
+          <li>Stochastic dynamics</li>
+        </ul>
 
         {% if page.social %}
           <div class="about-intro__social social">
