@@ -16,7 +16,7 @@ selected_papers: false
 social: true
 ---
 
-Hello! I’m Jiajun He (何佳峻), PhD student in the [Machine Learning Group](https://mlg.eng.cam.ac.uk/) at the University of Cambridge, supervised by [Prof. José Miguel Hernández-Lobato](https://jmhl.org/). My PhD is fully funded by the [Harding Distinguished Postgraduate Scholarship](https://www.hardingscholars.fund.cam.ac.uk/).
+Hello! I’m Jiajun He (何佳峻), PhD student in the [Machine Learning Group](https://mlg.eng.cam.ac.uk/) at the University of Cambridge, supervised by [Prof. José Miguel Hernández-Lobato](https://jmhl.org/). My PhD is fully funded by the [Harding Distinguished Postgraduate Scholarship](https://www.hardingscholars.fund.cam.ac.uk/). **I am currently interning at [Microsoft Research New England](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-england/) in Cambridge & Boston, USA with [Yuanqi](https://yuanqidu.github.io/) and [Carles](https://cdenrich.github.io/) --- please get in touch or drop by if you would like to catch up!**
 
 ### Research
 
