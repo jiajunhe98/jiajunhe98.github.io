@@ -36,4 +36,4 @@ Previously, I completed an MPhil in [Machine Learning and Machine Intelligence](
 
 ### Beyond research
 
-I am also a landscape photographer, and you can explore my work on [Instagram](https://www.instagram.com/jiajunhe614/).
+I am also a landscape photographer, and you can explore my work on [Instagram](https://www.instagram.com/jiajunhe614/). Lately I’ve been learning video shooting and processing, and I am still very much a beginner compared with still photography, so I’d love any suggestions or ideas!
